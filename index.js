@@ -11,5 +11,7 @@ class Tin {
 }
 
 const arrTin = [];
-// chia nho thanh 25 chuoi item
-// viet function nhan vao chuoiNguon, pre, post -> body
+
+const items = source.split('<item>');
+items.shift();
+console.log(items);
